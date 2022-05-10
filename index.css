@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 
-@font-face {
-  font-family: "ghanachoco";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
+* { 
+font-family: 'Pretendard';
+}
+html{
+  scroll-behavior: smooth;
+}
+/* 
 @font-face {
   font-family: "LeferiPoint-WhiteObliqueA";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff")
@@ -22,7 +23,7 @@
   font-family: "Nanum Gothic Coding", monospace;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap"); */
 
 * {
   margin: 0;
@@ -34,7 +35,8 @@
 
 body {
   display: flex;
-  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  font-family: 'Pretendard';
+
 }
 
 #sidebar {
@@ -45,17 +47,19 @@ body {
   float: left;
   flex-direction: column;
   justify-content: center;
+  margin: 0px auto;
   box-sizing: border-box;
 }
 
 #section {
   width: 85%;
-  float: right;
+  float: left;
   box-sizing: border-box;
 }
 .logo {
   font-size: 30px;
-  font-family: "ghanachoco";
+  font-family: 'Pretendard';
+  font-weight: 700;
   letter-spacing: 0.1em;
   text-decoration: none;
   align-items: center;
@@ -67,16 +71,16 @@ body {
 }
 
 .photo {
-  width: 12%;
+  width: 190px;
   border-radius: 50%;
   position: fixed;
-  margin: 8% 2% 2% 1.5%;
+  /* margin: 8% 2% 2% 1.5%; */
 }
 
 .menu {
   overflow: visible;
   align-items: center;
-  font-family: "LeferiPoint-WhiteObliqueA";
+  font-family: 'Pretendard';
   position: fixed;
   margin: 23% 2% 2% 0%;
 }
