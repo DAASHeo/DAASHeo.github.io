@@ -60,20 +60,22 @@ body {
   font-size: 30px;
   font-family: 'Pretendard';
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0em;
   text-decoration: none;
-  align-items: center;
   color: #f5f5f5;
-  flex-direction: column;
-  justify-content: center;
-  margin: 2% 2% 2% 3%;
+  top: 30px;
+  margin-left: 3.5%;
   position: fixed;
+
 }
 
 .photo {
   width: 190px;
+  height: 190px;
   border-radius: 50%;
   position: fixed;
+  top: 120px;
+  margin-left: 1.2%;
   /* margin: 8% 2% 2% 1.5%; */
 }
 
@@ -82,7 +84,7 @@ body {
   align-items: center;
   font-family: 'Pretendard';
   position: fixed;
-  margin: 23% 2% 2% 0%;
+  top: 400px;
 }
 
 nav ul li {
